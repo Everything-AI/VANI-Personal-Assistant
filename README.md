@@ -8,7 +8,7 @@ The problems faced by other Virtual Assistants were that they took a huge amount
 
 ## Model Description
 
-VANI was developed using Machine Learning abstractions, so the main aim was not just to instigate a virtual assistant but, the model itself was of prime importance which lead to its innumerous applications. Furthermore, the model used was sequence-to-sequence, written from scratch, which made all the  difference. Additionally, its application was not at all domain specific as the model which was generated can be applied to more problem statements like machine translation, text summarization, etc. 
+VANI was developed using Machine Learning abstractions, so the main aim was not just to instigate a virtual assistant but, the model itself was of prime importance which lead to its innumerous applications. Furthermore, the model used was sequence-to-sequence, written from scratch in tensorflow. Additionally, its application was not at all domain specific as the model which was generated can be applied to more problem statements like machine translation, text summarization, etc. 
 
 ## Trigger Actions
 
@@ -20,8 +20,6 @@ The Assistant can behave and talk just like any other personal assistant as it i
 - Displaying weather forcast for any place (**Weather Forcast at/in..**)
 - Opening any other site on browser
 
-The model was made not to store any data on database so it is better thamn its rival counterparts.
-
 ## Requirement Specifications
 
 1. Computer System to run application on, with dependencies:
@@ -32,3 +30,10 @@ The model was made not to store any data on database so it is better thamn its r
    - speech_recognition
 2. Webbrowser (chrome driver in the repo)
 3. Internet Connection (to perform searches)
+
+
+## How to use Vani
+
+Since the size of weights is too large , we have not uploaded it here so you have to train the model on your own. We suggest you training it on GPU since CPU training will take a lot time.
+You can train and test the model by running Vani-the-bot.py .
+After training run the main.py , then you can use all the applications of vani.
